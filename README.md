@@ -1,4 +1,4 @@
-How to use this smart contract on CNHO Stables? Check it ou.
+How to use this smart contract on CNHO Stables? Check it out.
 
  ./cnho_stables init admin --chain-id cnho_stables --home=.  
 
