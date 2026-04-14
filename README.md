@@ -50,19 +50,19 @@ How to use this smart contract on CNHO Stables? Check it ou.
 
 ./cnho_stable tx bank send cnho18x42dnqv4z2mxdw6pq5p4h5aj49vnqytq6k0h4 cnho1537p58jx7j52uqwr2emshd04e3s56a5450qkan 100000factory/cnho18x42dnqv4z2mxdw6pq5p4h5aj49vnqytq6k0h4/MINE --chain-id cnho_stables --from admin --keyring-backend test --fees 1000stake --broadcast-mode block --home=. -y
 
-astroport_factory.wasm   1
-astroport_pair.wasm  2
-astroport_pair_stable.wasm  3
-astroport_router.wasm  4
-astroport_token.wasm  5 
-astroport_whitelist.wasm 6
-astroport_generator.wasm 7
-astroport_staking.wasm 8
-astroport_maker.wasm 9
-astroport_native_coin_registry.wasm  10
-astroport_vesting.wasm  11
-astroport_oracle.wasm  12
-astroport_pair_concentrated.wasm  13
+factory.wasm   1
+pair.wasm  2
+pair_stable.wasm  3
+router.wasm  4
+token.wasm  5 
+whitelist.wasm 6
+generator.wasm 7
+staking.wasm 8
+maker.wasm 9
+native_coin_registry.wasm  10
+vesting.wasm  11
+oracle.wasm  12
+pair_concentrated.wasm  13
 
  ./cnho_stable query wasm codes
 
