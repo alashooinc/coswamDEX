@@ -67,7 +67,7 @@ pair_concentrated.wasm  13
  ./cnho_stable query wasm codes
 
 
- ./cnho_stable tx wasm store astroport_pair_concentrated.wasm   --from alice --chain-id cnho_stables --gas auto --fees 1000stake -y --keyring-backend test --home=. --broadcast-mode block
+ ./cnho_stable tx wasm store pair_concentrated.wasm   --from alice --chain-id cnho_stables --gas auto --fees 1000stake -y --keyring-backend test --home=. --broadcast-mode block
 
  ./cnho_stable tx wasm instantiate 10 '{
 "owner": "cnho18x42dnqv4z2mxdw6pq5p4h5aj49vnqytq6k0h4"
